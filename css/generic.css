@@ -1,0 +1,92 @@
+/** Reset **/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: top;
+}
+strong{ font-weight:bold; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+html { overflow-y:scroll; }
+input[type=submit],label,select{ cursor:pointer; }
+html,body,div,p,h1,h2,h3,h4,span,ul,ol,li,dl,dd,dt,img,br,a,form, input[type=text],input[type=checkbox],input[type=radio],input[type=password], textarea, button, label { margin:0; padding:0; border:0; }
+html,body{
+	width:100%;
+	height:100%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	text-align:left;
+	color:#444;
+}
+
+img, input[type=checkbox], input[type=radio] { vertical-align:middle; }
+ul,ol,dl{ list-style-type:none; }
+.input.text input,.input.password input,.input textarea,.input select, .mceEditor {
+	width:95%;
+	padding: 6px;
+	margin:0;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	box-shadow: rgba(0,0,0, 0.05) 0px 0 2px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0 2px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 2px;
+	background: #FFF url(/img/inputBg.jpg) left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+}
+
+.input.text input:hover,.input.password input:hover,.input textarea:hover,.input select:hover,
+.input.text input:focus,.input.password input:focus,.input textarea:focus,.input select:focus{ 
+	border-color: #c0c0c0; 
+	box-shadow: rgba(0,0,0, 0.15) 0px 0px 2px;
+	-moz-box-shadow: rgba(0,0,0, 0.15) 0px 0px 2px;
+	-webkit-box-shadow: rgba(0,0,0, 0.15) 0px 0px 2px;
+}
+.mceEditor{ display:block;padding:0;background:none;	} /* Outline fix for validation errors */
+
+label, .label { display:block;padding: 6px 0;vertical-align:middle; }
+
+.fltrt { float:right;width:auto; }
+.fltlft { float:left;width:auto; }
+.hide { display:none; }
+.error { color:red; }
+.input { padding: 3px 0; }
+.radio label, .checkbox label, .input select{ display:inline;width:auto; }
+.radio label, .checkbox label { margin-right:10px; }
+.clear { overflow:hidden; }
+div.atclear{ clear:none; }
+
+.fixbox {
+	box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.ib { display:-moz-inline-stack;display:inline-block;vertical-align:top;zoom:1;*display:inline; }
